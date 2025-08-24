@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+.icr_venv/
+icr_venv/
+.env*/
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output
+output_data/*
+processed_images/*
+temp_files/*
+!output_data/.gitkeep
+!processed_images/.gitkeep
+!temp_files/.gitkeep
+
+# Images input (keep folder, ignore contents except README)
+input_images/*
+!input_images/.gitkeep
+!input_images/README.md
+
+# Tesseract cache
+*.traineddata
+
+# Misc
+*.bak
+*.tmp

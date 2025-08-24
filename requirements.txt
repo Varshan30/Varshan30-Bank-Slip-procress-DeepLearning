@@ -1,0 +1,11 @@
+# ICR System Dependencies
+opencv-python==4.9.0.80
+pytesseract==0.3.10
+pillow==10.3.0
+numpy==1.26.4
+pandas==2.2.1
+
+# Optional: Machine Learning (if needed for advanced processing)
+tensorflow==2.16.1
+scikit-learn==1.5.0
+matplotlib==3.8.4
